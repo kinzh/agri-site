@@ -1,0 +1,89 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.shopstart{
+    color: #0A490A;
+    margin-left: 70px;
+    
+}
+.tovars{
+    display: inline-flex;
+}
+.tovar1{
+    border-style:groove;
+    border-width: 2px;
+    border-color: black;
+    width: 300px;
+    height: 425px;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.tovar2{
+    border-style:groove;
+    border-width: 2px;
+    border-color: black;
+    width: 300px;
+    height: 425px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.apple{
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+.fruitp, .fruitname{
+    color:#0A490A;
+    margin-left: 15px;
+}
+.fruitname{
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.fruitp{
+    margin-bottom: 3px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.price{
+    margin-left: 15px;
+    color: #0A490A;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pricespan{
+    font-size: 16px;
+    text-decoration:line-through;
+    margin-bottom: 0;
+}
+.kg{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 25px;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.kg::placeholder{
+    padding-left: 130px;
+    font-weight: 700;
+}
+
+.buttonbox{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.buttonbuy{
+    height: 30px;
+    width: 270px;
+    font-size: 15px;
+    color: #0A490A;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
